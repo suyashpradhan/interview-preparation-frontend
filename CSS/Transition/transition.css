@@ -19,13 +19,16 @@ body {
 
 .box-one {
     background-color: #3dccc7;
-    transition: 400ms background ease-in,
-        600ms transform ease-out 200ms,
-        800ms border-radius ease-in-out 200ms;
+    transition: 500ms background ease-in,
+        350ms transform ease-out 200ms,
+        200ms border-radius ease-out 200ms,
+        100ms box-shadow ease-in 100ms;
+    border-radius: 10px;
 }
 
 .box-one:hover {
     background: #35a19e;
-    transform: rotate(90deg) scale(1.1);
+    transform: scale(1.6);
+    box-shadow: 1px 1px 2px #35a19e;
     border-radius: 20px;
 }
